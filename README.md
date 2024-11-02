@@ -19,7 +19,7 @@ high-score.
   - When all countries have been visited, the game ends and the user is shown the final score. <br>
   - The game can be restarted with the “Restart” button. <br>
 
-*Working Principle: <br>
+* Working Principle: <br>
   - The JavaScript file starts with the DOMContentLoaded event. <br>
   - A random country name is selected with the pickNewCountry function. <br>
   - The countryClicked function checks if the clicked country is correct. <br>
