@@ -26,3 +26,11 @@ high-score.
   - If the answer is correct, the country counter is incremented. If the answer is incorrect, the score is reduced proportionally out of 100%. <br>
   - At the end of the game, a final score and the possibility to restart is provided. <br>
 
+* JavaScript Library Used: <br>
+  -  <br>
+  -  <br>
+
+## SOME VISUALS ABOUT THE GAME
+
+
+
