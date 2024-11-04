@@ -29,6 +29,13 @@ high-score.
 ## JavaScript Library Used
   - Three.js
 
+## Requirements
+  **HTML**: Sayfanın yapısını oluşturmak için kullanılmıştır.
+- **CSS**: Sayfanın stilini ve düzenini belirlemek için kullanılmıştır.
+- **JavaScript**: Dinamik içerik oluşturma ve kullanıcı etkileşimlerini yönetmek için kullanılmıştır.
+  - **Three.js**: 3D grafikler oluşturmak için kullanılan popüler bir JavaScript kütüphanesi.
+  
+
 ## Screenshot of the Game
 
 ### The page that will appear when you first open it:
