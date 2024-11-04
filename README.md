@@ -5,7 +5,7 @@
 
 ## Aim of the Game
 
-* The aim of this assignment is to design a GeoGame.A geo-game is an interactive game, in 
+* The aim of this assignment is to design a GeoGame. A geo-game is an interactive game, in 
 which a user interacts with the browser has a geo-component and tries to achieve a 
 high-score.
 
