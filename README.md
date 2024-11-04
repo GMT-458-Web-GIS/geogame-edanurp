@@ -11,7 +11,7 @@ high-score.
 
 ## Title of the Game: Find Country
 
-* Features: <br>
+## Features
   - First, the user is asked to select a continent. <br>
   - After the continent is selected, the user is shown a random country name. <br>
   - If the correct country is clicked, the user is notified of the correct answer and is shown the next country name. <br>
@@ -19,7 +19,7 @@ high-score.
   - When all countries have been visited, the game ends and the user is shown the final score. <br>
   - The game can be restarted with the “Restart” button. <br>
 
-* Working Principle: <br>
+## Working Principle:
   - The JavaScript file starts with the DOMContentLoaded event. <br>
   - A random country name is selected with the pickNewCountry function. <br>
   - The countryClicked function checks if the clicked country is correct. <br>
