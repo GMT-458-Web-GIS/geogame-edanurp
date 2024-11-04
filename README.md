@@ -30,10 +30,10 @@ high-score.
   - Three.js
 
 ## Requirements
-  **HTML**: Sayfanın yapısını oluşturmak için kullanılmıştır.
-- **CSS**: Sayfanın stilini ve düzenini belirlemek için kullanılmıştır.
-- **JavaScript**: Dinamik içerik oluşturma ve kullanıcı etkileşimlerini yönetmek için kullanılmıştır.
-  - **Three.js**: 3D grafikler oluşturmak için kullanılan popüler bir JavaScript kütüphanesi.
+ - **HTML**: Used to create the structure of the page.
+ - **CSS**: Used to determine the style and layout of the page.
+ - **JavaScript**: Used to create dynamic content and manage user interactions.
+ - **Three.js**: A popular JavaScript library used to create 3D graphics.
   
 
 ## Screenshot of the Game
