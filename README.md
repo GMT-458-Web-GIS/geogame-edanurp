@@ -31,10 +31,10 @@ high-score.
 
 ## Screenshot of the Game
 
-### The page that will appear when you first open it
+### The page that will appear when you first open it:
 ![image](https://github.com/user-attachments/assets/1e59354f-a499-4952-8d8c-fe3fefdc30fc)
 
-### The screen that will appear when you click on the North American continent
+### The screen that will appear when you click on the North American continent:
 ![image](https://github.com/user-attachments/assets/ecf81dfa-75f6-49c7-88b9-2ff558091d17)
 
 ### The screen that will appear when you click on the South American continent:
