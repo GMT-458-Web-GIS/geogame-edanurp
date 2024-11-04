@@ -9,7 +9,7 @@
 which a user interacts with the browser has a geo-component and tries to achieve a 
 high-score.
 
-## TITLE OF THE GAME: FİND COUNTRY
+## Title of the Game: Find Country
 
 * Features: <br>
   - First, the user is asked to select a continent. <br>
