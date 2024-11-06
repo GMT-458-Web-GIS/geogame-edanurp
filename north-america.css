@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #151719;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+/* Ana İçerik ve Video Arkaplanı */
+.container {
+    margin-top: 20px;
+}
+
+.home {
+    height: 100vh;
+    position: relative;
+}
+
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.home-content {
+    position: relative;
+    padding-top: 150px;
+    color: #fff;
+    text-align: center;
+}
+
+.home-content p {
+    font-size: clamp(25px, 4vw, 40px);
+    color: white;
+    margin-top: 10px;
+}
+
+.home-content button {
+    display: block;
+    font-size: clamp(14px, 1.5vw, 18px);
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    background: transparent;
+    color: #fff;
+    margin: 50px auto 0;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+/* Scoreboard ve Harita */
+.scoreboard {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.map {
+    display: inline-block;
+    width: 1000px;
+    height: 10%;
+    margin-left: 190px;
+}
+
+#north_america-map .country {
+    fill: lightgray;
+    stroke: #333;
+    stroke-width: 1;
+    cursor: pointer;
+    transition: fill 0.3s ease;
+}
+
+#north_america-map .country:hover {
+    fill: #c4e17f;
+}
+
+/* Button Animasyonu */
+button {
+    width: 190px;
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+    color: rgba(255, 255, 255, 0.9);
+    border-radius: 50px;
+    background: linear-gradient(-45deg, #ffa63d, #ff3d77, #338aff, #3cf0c5);
+    background-size: 500%;
+    animation: anime 16s linear infinite;
+    margin-left: 50px;
+}
+
+@keyframes anime {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Waviy Efekti */
+.waviy {
+    position: relative;
+    font-size: 60px;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
+}
+
+.waviy span {
+    font-family: 'Alfa Slab One', cursive;
+    position: relative;
+    display: inline-block;
+    color: lightskyblue;
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+}
+
+@keyframes waviy {
+    0%, 40%, 100% {
+        transform: translateY(0);
+    }
+    20% {
+        transform: translateY(-20px);
+    }
+}
+
+/* Kontrol Düğmesi */
+.controls {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+}
+
+h1 {
+    color: white;
+}
+p{
+    color: white;
+}
+@import 'https://fonts.googleapis.com/css?family=Rajdhani:700';
+body {
+  margin: 0;
+  background: #73CDE7;
+}
+@keyframes background {
+  from {
+    background-position: 0 0%;
+  }
+  to {
+    background-position: 0 -200px;
+  }
+}
+p {
+  color: #F2F5FE;
+  text-align: center;
+  font-size: 50px;
+  line-height: 1;
+  font-family: 'Rajdhani', sans-serif;
+  background: -webkit-linear-gradient(transparent, transparent), url(http://html5book.ru/wp-content/uploads/2016/08/bubbles.png) repeat;
+  background-size: 200px auto;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: background 10s infinite linear;
+}

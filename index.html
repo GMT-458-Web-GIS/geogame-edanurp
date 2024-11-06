@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Find Country</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            height: 100%;
+        }
+
+        .content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 10;
+            color: white;
+            text-align: center;
+        }
+
+        .container h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        .container h2 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+
+        #continents {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .continent {
+            width: 150px;
+            text-align: center;
+            color: white;
+            cursor: pointer;
+        }
+
+        .continent img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://cdn.jsdelivr.net/npm/three@0.161/build/three.module.js",
+                "jsm/": "https://cdn.jsdelivr.net/npm/three@0.161/examples/jsm/"
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="three-container"></div>
+    <div class="content">
+        <div class="container">
+            <h1 class="wave-text">FİND COUNTRY</h1><br>
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-12 text-center">
+                    <h2 class="animate-charcter">Please Choose a Continent</h1>
+                  </div>
+                </div>
+              </div>
+            <div id="continents">
+                <div class="continent" data-continent="north-america">
+                    <img src="North_America.png" alt="Kuzey Amerika">
+                    <p>North America</p>
+                </div>
+                <div class="continent" data-continent="south-america">
+                    <img src="South_America.png" alt="Güney Amerika">
+                    <p>South America</p>
+                </div>
+                <div class="continent" data-continent="europe">
+                    <img src="europe.png" alt="Avrupa">
+                    <p>Europe</p>
+                </div>
+                <div class="continent" data-continent="africa">
+                    <img src="Africa.png" alt="Afrika">
+                    <p>Africa</p>
+                </div>
+                <div class="continent" data-continent="asia">
+                    <img src="asia.png" alt="Asya">
+                    <p>Asia</p>
+                </div>
+                <div class="continent" data-continent="oceania">
+                    <img src="australia and oceania.png" alt="Avustralya ve Okyanusya">
+                    <p>Australia and Oceania</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
