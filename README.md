@@ -3,7 +3,7 @@
 
 * 2200674039 EDANUR PAYCI
 
-## https://gmt-458-web-gis.github.io/geogame-edanurp/
+## github-pages of the game: https://gmt-458-web-gis.github.io/geogame-edanurp/
 
 ## Aim of the Game
 
