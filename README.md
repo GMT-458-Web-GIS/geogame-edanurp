@@ -3,6 +3,8 @@
 
 * 2200674039 EDANUR PAYCI
 
+## https://gmt-458-web-gis.github.io/geogame-edanurp/
+
 ## Aim of the Game
 
 * The aim of this assignment is to design a GeoGame. A geo-game is an interactive game, in 
@@ -58,6 +60,7 @@ high-score.
 
 ### The screen that will appear when you click on the Australia and Oceania continent:
 ![image](https://github.com/user-attachments/assets/fa261afc-3b00-417a-a7df-01bd5900d687)
+
 
 
 
