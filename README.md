@@ -30,7 +30,7 @@ high-score.
   - At the end of the game, a final score and the possibility to restart is provided. <br>
 
 ## JavaScript Library Used
-  - Three.js
+  - Three.js: On the first page of the game, it uses the Three.js library to create a 3D world map and moving stars in the background to invite the user into an interactive and visually immersive experience. This creates a visually striking atmosphere.
 
 ## Requirements
  - **HTML**: Used to create the structure of the page.
