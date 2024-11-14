@@ -14,13 +14,17 @@ document.addEventListener("DOMContentLoaded", () => {
     let score = 100;
     let correctCountry = "";
     let countryCount = 0;
-  
+    let timeLeft = 60; 
+    let timerInterval; 
+    let gameInterval;  
+
     const scoreElement = document.getElementById("score");
     const currentCountryElement = document.getElementById("current-country");
     const countryCountElement = document.getElementById("country-count");
+    const timerElement = document.getElementById("timer");
     const restartButton = document.getElementById("restart");
-  
-    // Yeni ülke seç
+
+   
     function pickNewCountry() {
         if (countryCount >= countries.length) {
             alert("Oyun bitti! Final skorunuz: " + score + "%");
@@ -28,46 +32,65 @@ document.addEventListener("DOMContentLoaded", () => {
             return;
         }
         correctCountry = countries[Math.floor(Math.random() * countries.length)];
-        currentCountryElement.textContent = correctCountry.replace(/([A-Z])/g, ' $1').trim();
-        countryCountElement.textContent = `${countryCount}/${countries.length}`;
+        currentCountryElement.textContent = correctCountry.replace(/([A-Z])/g, ' $1').trim();  
+        countryCountElement.textContent = `${countryCount + 1}/${countries.length}`; 
     }
-  
-    // Ülkeye tıklama olayını işleme
+
+    
+    function updateTimer() {
+        if (timeLeft > 0) {
+            timeLeft--;
+            timerElement.textContent = timeLeft;  
+        } else {
+            clearInterval(timerInterval); 
+            alert("Zaman doldu! Oyun bitti. Final skorunuz: " + score + "%"); 
+            clearInterval(gameInterval); 
+        }
+    }
+
+   
     function countryClicked(event) {
         const clickedCountry = event.target.id;
         if (clickedCountry === correctCountry) {
             alert("Doğru! " + clickedCountry + " seçildi.");
             countryCount++;
         } else {
-            score -= Math.round(100 / countries.length); // Yanlışta yüzdesel azaltma
+            score -= Math.round(100 / countries.length); 
             alert("Yanlış! Bu " + clickedCountry + ". Doğru ülke " + correctCountry + " idi.");
         }
         scoreElement.textContent = score + "%";
-        pickNewCountry();
+        pickNewCountry(); 
     }
-  
-    // Oyunu başlatma veya yeniden başlatma
+
+    
     function restartGame() {
         score = 100;
         countryCount = 0;
+        timeLeft = 60;  
         scoreElement.textContent = score + "%";
-        pickNewCountry();
+        timerElement.textContent = timeLeft;
+        clearInterval(timerInterval); 
+        clearInterval(gameInterval);   
+
+    
+        timerInterval = setInterval(updateTimer, 1000);  
+
+        pickNewCountry(); 
     }
-  
-    // Tüm ülke öğeleri için olay dinleyici ekle
+
+   
     countries.forEach(countryId => {
         const countryElement = document.getElementById(countryId);
         if (countryElement) {
             countryElement.addEventListener("click", countryClicked);
         }
     });
-  
-    // Yeniden Başla butonuna olay dinleyici ekle
+
+    
     if (restartButton) {
         restartButton.addEventListener("click", restartGame);
     }
-  
-    // Oyunu başlat
-    restartGame();
-  });
+
+    restartGame(); 
+});
   
