@@ -61,6 +61,9 @@ high-score.
 ### The screen that will appear when you click on the Australia and Oceania continent:
 ![image](https://github.com/user-attachments/assets/10fd730a-1c38-4b0e-ab1d-445c2eb52d9b)
 
+### When the time is over, the following warning is given on the screen:
+![image](https://github.com/user-attachments/assets/ec23404f-78d1-423b-9d24-033bb22d9625)
+
 
 
 
