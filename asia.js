@@ -9,20 +9,20 @@ document.addEventListener("DOMContentLoaded", () => {
   ];
 
   let score = 100;
-    let correctCountry = "";
-    let countryCount = 0;
-    let timeLeft = 60; 
-    let timerInterval; 
-    let gameInterval;  
+  let correctCountry = "";
+  let countryCount = 0;
+  let timeLeft = 60; 
+  let timerInterval; 
+  let gameInterval;  
 
-    const scoreElement = document.getElementById("score");
-    const currentCountryElement = document.getElementById("current-country");
-    const countryCountElement = document.getElementById("country-count");
-    const timerElement = document.getElementById("timer");
-    const restartButton = document.getElementById("restart");
+  const scoreElement = document.getElementById("score");
+  const currentCountryElement = document.getElementById("current-country");
+  const countryCountElement = document.getElementById("country-count");
+  const timerElement = document.getElementById("timer");
+  const restartButton = document.getElementById("restart");
 
    
-    function pickNewCountry() {
+  function pickNewCountry() {
         if (countryCount >= countries.length) {
             alert("Oyun bitti! Final skorunuz: " + score + "%");
             restartGame();
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     
-    function updateTimer() {
+  function updateTimer() {
         if (timeLeft > 0) {
             timeLeft--;
             timerElement.textContent = timeLeft;  
