@@ -54,7 +54,7 @@ high-score.
 ![image](https://github.com/user-attachments/assets/5366321b-fb16-4f6e-a561-f2095217a4ab)
 
 ### The screen that will appear when you click on the Africa continent:
-![image](https://github.com/user-attachments/assets/315620ea-820b-4c45-b881-5806367dfaf0)
+![image](https://github.com/user-attachments/assets/1e874d8c-c435-4820-a600-fd8ac1d71ef7)
 
 ### The screen that will appear when you click on the Asia continent:
 ![image](https://github.com/user-attachments/assets/557c5376-0399-4899-bfb4-d6cc5964610d)
