@@ -48,7 +48,7 @@ high-score.
 ![image](https://github.com/user-attachments/assets/280b4564-2efa-45cb-9488-d3cc4bc3eb88)
 
 ### The screen that will appear when you click on the South American continent:
-![image](https://github.com/user-attachments/assets/6fe30b1d-d415-40c7-9487-28ccb8583b72)
+![image](https://github.com/user-attachments/assets/ba6bdb26-52a5-4253-bc64-62b01cd00385)
 
 ### The screen that will appear when you click on the Europe continent:
 ![image](https://github.com/user-attachments/assets/7756ddf2-abc0-4254-ac49-33784f00098e)
