@@ -57,7 +57,7 @@ high-score.
 ![image](https://github.com/user-attachments/assets/1e874d8c-c435-4820-a600-fd8ac1d71ef7)
 
 ### The screen that will appear when you click on the Asia continent:
-![image](https://github.com/user-attachments/assets/557c5376-0399-4899-bfb4-d6cc5964610d)
+![image](https://github.com/user-attachments/assets/8355130c-448b-4a3f-a1b3-da907d12b796)
 
 ### The screen that will appear when you click on the Australia and Oceania continent:
 ![image](https://github.com/user-attachments/assets/fa261afc-3b00-417a-a7df-01bd5900d687)
