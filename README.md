@@ -60,7 +60,8 @@ high-score.
 ![image](https://github.com/user-attachments/assets/8355130c-448b-4a3f-a1b3-da907d12b796)
 
 ### The screen that will appear when you click on the Australia and Oceania continent:
-![image](https://github.com/user-attachments/assets/fa261afc-3b00-417a-a7df-01bd5900d687)
+![image](https://github.com/user-attachments/assets/10fd730a-1c38-4b0e-ab1d-445c2eb52d9b)
+
 
 
 
