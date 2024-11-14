@@ -26,7 +26,7 @@ high-score.
   - A random country name is selected with the pickNewCountry function. <br>
   - The countryClicked function checks if the clicked country is correct. <br>
   - If the answer is correct, the country counter is incremented. If the answer is incorrect, the score is reduced proportionally out of 100%. <br>
-  - At the end of the game, a final score and the possibility to restart is provided. <br>
+  - The game is limited to 60 seconds, when the second runs out, a warning that the game is over and a final score is provided, giving the possibility to restart. <br>
 
 ## JavaScript Library Used
   - Three.js: On the first page of the game, it uses the Three.js library to create a 3D world map and moving stars in the background to invite the user into an interactive and visually immersive experience. This creates a visually striking atmosphere.
