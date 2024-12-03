@@ -58,6 +58,17 @@ high-score.
 * The countdown is updated every second with timerElement.textContent. The timer helps the player to visually track the game time.
 ### 3- Country Highlighting:
 * By clicking on the countries on the map, correct or incorrect selections are made and feedback is given. On the map, countries are defined as clickable items and the colours of these countries change when the user makes a correct or incorrect selection.
+
+## Resources Used to Use Animated Text
+* https://frontendresource.com/css-text-animations/#google_vignette
+* https://devsnap.me/css-text-animations
+
+## Resources for Adding Video to HTML Code
+* https://www.youtube.com/watch?v=ts0mU1_fQVA
+## Site used to Add Video
+* https://pixabay.com/videos/search/star/
+## Site for adding the three.js library
+* https://www.youtube.com/watch?v=hNsn0CA94xg
   
 ## Screenshot of the Game
 
