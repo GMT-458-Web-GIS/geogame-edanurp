@@ -47,13 +47,13 @@ Purpose: Updates the countdown timer every second and ends the game when time ru
 
 ### Restart Button Click Handler
 Purpose: Resets the game state, including the score, timer, and country count, allowing the player to start a new round.
-  
-## Screenshot of the Game
 
 ## closures 
 * In the project, closures are used to store the game logic in a contained and secure way. In this way, variables are only accessible within the scope of the relevant function and the game logic is kept under control.
 
 In particular, the pickNewCountry function demonstrates the power of closures by preserving critical information about the game state at each call. This function consistently manages game progress and current state when determining the new country to be selected in a game round.
+  
+## Screenshot of the Game
 
 ### The page that will appear when you first open it:
 ![image](https://github.com/user-attachments/assets/1e59354f-a499-4952-8d8c-fe3fefdc30fc)
