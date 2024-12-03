@@ -52,8 +52,12 @@ high-score.
 * In the project, closures are used to store the game logic in a contained and secure way. In this way, variables are only accessible within the scope of the relevant function and the game logic is kept under control.In particular, the pickNewCountry function demonstrates the power of closures by preserving critical information about the game state at each call. This function consistently manages game progress and current state when determining the new country to be selected in a game round.
 
 ## Existing DOM Interactions
-### 1-Skor Görüntüleme:
-* scoreElement.textContent ile oyuncunun mevcut skoru her doğru veya yanlış seçim sonrası güncellenir. Bu, oyuncunun ilerlemesini ve başarılarını sürekli takip etmesine olanak tanır.
+### 1- Score Display:
+* scoreElement.textContent updates the player's current score after each correct or incorrect selection. This allows the player to constantly keep track of his progress and achievements.
+### 2- Timer:
+* The countdown is updated every second with timerElement.textContent. The timer helps the player to visually track the game time.
+### 3- Country Highlighting:
+* By clicking on the countries on the map, correct or incorrect selections are made and feedback is given. On the map, countries are defined as clickable items and the colours of these countries change when the user makes a correct or incorrect selection.
   
 ## Screenshot of the Game
 
