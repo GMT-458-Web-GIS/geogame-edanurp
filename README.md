@@ -50,6 +50,10 @@ high-score.
 
 ## Closures 
 * In the project, closures are used to store the game logic in a contained and secure way. In this way, variables are only accessible within the scope of the relevant function and the game logic is kept under control.In particular, the pickNewCountry function demonstrates the power of closures by preserving critical information about the game state at each call. This function consistently manages game progress and current state when determining the new country to be selected in a game round.
+
+## Existing DOM Interactions
+### 1-Skor Görüntüleme:
+* scoreElement.textContent ile oyuncunun mevcut skoru her doğru veya yanlış seçim sonrası güncellenir. Bu, oyuncunun ilerlemesini ve başarılarını sürekli takip etmesine olanak tanır.
   
 ## Screenshot of the Game
 
