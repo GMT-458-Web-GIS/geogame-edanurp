@@ -36,6 +36,11 @@ high-score.
  - **CSS**: Used to determine the style and layout of the page.
  - **JavaScript**: Used to create dynamic content and manage user interactions.
  - **Three.js**: A popular JavaScript library used to create 3D graphics.
+
+## Event Handlers
+
+### Country Click Handler
+Purpose: Triggered when a player clicks on a country. It checks if the clicked country matches the current target country and updates the score accordingly.
   
 
 ## Screenshot of the Game
