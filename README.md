@@ -37,7 +37,8 @@ high-score.
  - **JavaScript**: Used to create dynamic content and manage user interactions.
  - **Three.js**: A popular JavaScript library used to create 3D graphics.
 
-## Event Handlers
+## Advanced Features
+### Event Handlers
 
 ### Country Click Handler
 * Purpose: Triggered when a player clicks on a country. It checks if the clicked country matches the current target country and updates the score accordingly.
