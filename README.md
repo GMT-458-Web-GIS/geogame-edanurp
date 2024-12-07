@@ -41,8 +41,10 @@ high-score.
 ### Event Handlers
 1- Country Click Handler
 * Purpose: Triggered when a player clicks on a country. It checks if the clicked country matches the current target country and updates the score accordingly. <br>
+
 2- Timer Update Handler
 * Purpose: Updates the countdown timer every second and ends the game when time runs out. <br>
+
 3- Restart Button Click Handler
 * Purpose: Resets the game state, including the score, timer, and country count, allowing the player to start a new round.
 
