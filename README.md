@@ -53,9 +53,11 @@ high-score.
 
 ### Existing DOM Interactions
 1- Score Display:
-* scoreElement.textContent updates the player's current score after each correct or incorrect selection. This allows the player to constantly keep track of his progress and achievements.
+* scoreElement.textContent updates the player's current score after each correct or incorrect selection. This allows the player to constantly keep track of his progress and achievements. <br>
+
 2- Timer:
-* The countdown is updated every second with timerElement.textContent. The timer helps the player to visually track the game time.
+* The countdown is updated every second with timerElement.textContent. The timer helps the player to visually track the game time. <br>
+
 3- Country Highlighting:
 * By clicking on the countries on the map, correct or incorrect selections are made and feedback is given. On the map, countries are defined as clickable items and the colours of these countries change when the user makes a correct or incorrect selection.
 
