@@ -39,8 +39,7 @@ high-score.
 
 ## Advanced Features
 ### Event Handlers
-
-### Country Click Handler
+1- Country Click Handler
 * Purpose: Triggered when a player clicks on a country. It checks if the clicked country matches the current target country and updates the score accordingly.
 
 ### Timer Update Handler
