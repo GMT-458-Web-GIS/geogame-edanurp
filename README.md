@@ -41,22 +41,20 @@ high-score.
 ### Event Handlers
 1- Country Click Handler
 * Purpose: Triggered when a player clicks on a country. It checks if the clicked country matches the current target country and updates the score accordingly.
-
-### Timer Update Handler
+2- Timer Update Handler
 * Purpose: Updates the countdown timer every second and ends the game when time runs out.
-
-### Restart Button Click Handler
+3- Restart Button Click Handler
 * Purpose: Resets the game state, including the score, timer, and country count, allowing the player to start a new round.
 
-## Closures 
+### Closures 
 * In the project, closures are used to store the game logic in a contained and secure way. In this way, variables are only accessible within the scope of the relevant function and the game logic is kept under control.In particular, the pickNewCountry function demonstrates the power of closures by preserving critical information about the game state at each call. This function consistently manages game progress and current state when determining the new country to be selected in a game round.
 
-## Existing DOM Interactions
-### 1- Score Display:
+### Existing DOM Interactions
+1- Score Display:
 * scoreElement.textContent updates the player's current score after each correct or incorrect selection. This allows the player to constantly keep track of his progress and achievements.
-### 2- Timer:
+2- Timer:
 * The countdown is updated every second with timerElement.textContent. The timer helps the player to visually track the game time.
-### 3- Country Highlighting:
+3- Country Highlighting:
 * By clicking on the countries on the map, correct or incorrect selections are made and feedback is given. On the map, countries are defined as clickable items and the colours of these countries change when the user makes a correct or incorrect selection.
 
 ## Resources Used to Use Animated Text
